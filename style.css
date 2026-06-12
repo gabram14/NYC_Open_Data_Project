@@ -1,0 +1,220 @@
+html, body{
+ margin:0 auto;
+ font-family:'Times New Roman', Times, serif;
+}
+
+
+body{
+ background-color: rgb(0, 0, 0);
+ color:whitesmoke;
+}
+
+
+.hero-image {
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(kitchen.jpeg);
+ height: 17%;
+ background-position:top;
+ background-repeat: no-repeat;
+ background-size:100%;
+ position: relative;
+}
+
+
+.pic{
+ text-align:center;
+ flex:2;
+}
+
+
+.banner{
+ text-align:center;
+}
+
+
+
+
+input[type=text]{
+ border: 2px solid rgb(43, 37, 122);
+ border-radius: 4px;
+}
+
+
+.container{
+ display:flex;
+ padding:px;
+ flex-wrap:wrap;
+}
+
+
+.center{
+ justify-content:center;
+ align-items:center;
+}
+
+
+nav{
+ background-color:rgb(134, 32, 14);
+}
+nav a{
+ color:rgb(224, 217, 217);
+ padding:10px;
+ flex:1;
+ text-decoration:none;
+ text-align:center;
+ }
+nav a:hover{
+ color:white;
+ font-size:15px;
+}
+
+
+.subbanner{
+ background-color:rgb(168, 168, 168);
+}
+
+
+
+
+#banner{
+ text-align: center;
+ color:white;
+}
+
+
+#footer{
+ background-color:rgb(229, 231, 235);
+ color:rgb(0, 0, 0);
+ text-align: center;
+ left: 0;
+ right: 0;
+ bottom:0px;
+}
+#leftPanel{
+  flex:1;
+  max-height:800px;;
+  overflow-y:scroll;
+}
+
+.card{
+ flex:1;
+ margin:10px;
+ padding:10px;
+ border:1px solid gray;
+ text-align:center;
+ background-color:rgb(221, 192, 155) ;
+ color: black;
+}
+.filtercard{
+ flex:1;
+ margin:10px;
+ padding:10px;
+ border:1px solid gray;
+ text-align:center;
+ background-color:rgb(165, 115, 106) ;
+ color: black;
+}
+
+#map{
+ flex:1;
+ width:90%;
+ height:600px;
+ border-radius:10px;
+ box-shadow:2px 2px 2px black;
+}
+
+.highlight{
+ font-style:italic;
+ color:blue;
+}
+.heading{
+ font-weight:bold;
+}
+
+.button{
+ text-decoration:none;
+ background-color:rgb(238, 198, 151);
+ color:rgb(0, 0, 0);
+ border-radius:4px;
+ padding:6px;
+ box-shadow:2px 2px 2px black;
+ cursor: pointer;
+}
+.button:hover{
+ background-color:rgb(217, 210, 197);
+}
+.movie h3, .movie p{
+ font-size:18pt;
+}
+.divider{
+ clear:both;
+}
+
+
+.left{
+ float:left;
+ margin:20px;
+ box-shadow:2px 2px 2px gray; 
+}
+.movie h3{
+ font-style: italic;
+}
+
+
+#output{
+ background-color: rgb(199, 185, 185);
+ color: azure;
+}
+
+.fitted{
+ max-width:200px;
+ min-width:200px;
+ border-radius:5px;
+ box-shadow:2px 2px 2px gray;
+}
+
+
+.one{
+ flex:1;
+ margin:10px;
+ padding:10px;
+ border:1px solid gray;
+ text-align:left;
+ background-color:rgb(0, 0, 0);
+}
+#two{
+ flex:1;
+ margin:10px;
+ padding:10px;
+ border:1px solid gray;
+ text-align:center;
+ background-color:rgb(77, 10, 10);
+}
+.three{
+ flex:1;
+ margin:10px;
+ padding:10px;
+ border:1px solid gray;
+ text-align:right;
+ background-color:rgb(0, 0, 0);
+ }
+
+
+#borough{
+ flex:1;
+ margin:10px;
+ padding:10px;
+ border:1px solid white;
+ text-align:center;
+ background-color:rgb(236, 230, 230);
+}
+
+
+#idenity{
+ flex:2;
+ margin:10px;
+ padding:10px;
+ border:1px solid rgb(224, 189, 189);
+ text-align:center;
+ background-color:rgb(213, 212, 212);
+}
