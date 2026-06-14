@@ -21,10 +21,15 @@ body{
 }
 
 
-.pic{
+#pic{
  text-align:center;
  flex:2;
 }
+
+#pic:hover{
+  background-color:rgb(142, 7, 7);
+}
+
 
 
 .banner{
